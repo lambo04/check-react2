@@ -1,0 +1,59 @@
+/* Conteneur des cartes */
+.players-list {
+  display: flex;
+  flex-wrap: wrap; /* Les cartes passent à la ligne si nécessaire */
+  gap: 16px; /* Espacement uniforme entre les cartes */
+  justify-content: center; /* Centrer les cartes */
+  margin: 20px;
+}
+
+/* Taille uniforme pour chaque carte */
+.player-card {
+  width: 300px; /* Largeur fixe pour toutes les cartes */
+  height: 400px; /* Hauteur fixe pour toutes les cartes */
+  border: 1px solid #ddd; /* Bordure légère */
+  border-radius: 8px; /* Coins arrondis */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Disposition verticale */
+  justify-content: space-between; /* Équilibrer les sections */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre discrète */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.player-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image des cartes : ajustement */
+.player-card-img {
+  height: 200px; /* Hauteur fixe de l'image */
+  object-fit: cover; /* Coupe l'image pour qu'elle s'adapte */
+}
+
+/* Texte de la carte */
+.player-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.player-card-text {
+  font-size: 14px;
+  text-align: left;
+  padding: 0 10px;
+}
+h1{
+  text-align: center;
+  color: #ddd;
+}
+.footer{
+  background-color: black !important;
+  color: #ddd;
+
+}
+.App{
+  background-image: url("https://cdn.wallpapersafari.com/62/62/9stp8g.png");
+}
