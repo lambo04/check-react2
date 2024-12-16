@@ -10,9 +10,9 @@ import "./App" ;
 const App = () => {
   return (
     <div className="App">
-      <NavBarre/>
-      <h1>FIFA Player Cards</h1>
-      <PlayersList />
+      <NavBarre/><br/>
+      <h1>FIFA Player Cards</h1><br/>
+      <PlayersList /><br/>
       <Footer/>
     </div>
   );
